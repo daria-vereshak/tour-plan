@@ -605,6 +605,11 @@ img {
   border-radius: 8px;
 }
 
+.swiper-item {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .swiper::after {
   content: '';
   width: 100%;
