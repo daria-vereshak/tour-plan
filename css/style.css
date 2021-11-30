@@ -506,7 +506,7 @@ img {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 13px;
   padding-bottom: 70px;
 }
 
@@ -810,6 +810,10 @@ img {
   height: 213px;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.map__iframe {
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
