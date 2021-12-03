@@ -51,8 +51,17 @@
   .navbar
     &__search
       width: 50%
-  .booking, .map
+    &-menu
+      padding-top: 21px
+      padding-bottom: 21px
+  .booking
+    height: 210px
+    padding: 26px 22px 26px 23px
     width: 49%
+  .map
+    width: 49%
+  .hotel
+    padding-bottom: 60px
   .newsletter
     padding: 92px 0
     &-wrapper
@@ -111,8 +120,8 @@
       display: none
   .navbar
     &-top
-      padding-top: 28px
-      padding-bottom: 28px
+      padding-top: 26px
+      padding-bottom: 26px
   .menu
     &-button
       display: flex
@@ -131,7 +140,7 @@
   .stars
     flex-basis: auto
   .hotel
-    padding-top: 8px
+    padding-top: 0
     &-name
       flex-basis: 100%
     &-wrapper
@@ -178,7 +187,7 @@
 
 @media (max-width: 320px)
   .hotel
-    padding-bottom: 40px
+    padding-bottom: 41px
     &__slider
       height: 180px
       margin-bottom: 20px
@@ -198,16 +207,16 @@
         font-size: 30px
         line-height: 38px
   .reviews
-    margin: auto
-    padding: 40px 20px 50px
-    max-width: 245px
+    padding: 40px 0 50px
     &__title
+      max-width: 245px
+      margin: 0 auto
       margin-bottom: 42px
       font-size: 18px
       line-height: 23px
     &-slider
       &__button
         &--prev
-          margin-left: -85px
+          margin-left: -95px
         &--next
           margin-right: -85px
