@@ -20,3 +20,11 @@ const reviewsSlider = new Swiper('.reviews-slider', {
   },
 
 });
+
+$(function(){
+  $('.parallax-window').parallax({    
+    imageSrc: "img/newsletter-bg.jpg",    
+    speed: '0.5',
+  });
+});
+
