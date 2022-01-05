@@ -455,6 +455,7 @@ img {
   height: 100%;
   border: none;
   background-color: #EC1F46;
+  cursor: pointer;
 }
 
 .user {
@@ -1653,7 +1654,10 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .navbar__mobile--fixed {
+  .navbar__search {
+    width: 100%;
+  }
+  .navbar--mobile--fixed {
     position: fixed;
     left: 0;
     top: 0;
@@ -1713,6 +1717,9 @@ img {
     color: #fff;
     margin-left: 0;
     margin-top: 10px;
+  }
+  .search__input--mobile {
+    width: 100%;
   }
   .stars {
     -ms-flex-preferred-size: auto;
