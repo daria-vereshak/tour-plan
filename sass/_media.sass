@@ -116,10 +116,33 @@
       &__item
         width: 82%
   .activities
+    padding-bottom: 50px
     &__title
       margin-bottom: 57px
   .card
     width: 49%
+  .footer
+    padding-top: 73px
+    &-wrapper
+      grid-template-columns: repeat(7, 1fr)
+      grid-row-gap: 48px
+      margin-bottom: 59px
+    &__categories
+      margin-bottom: 12px
+    &__addition
+      grid-column: span 3
+    &__title
+      &--mb-3
+        margin-bottom: 26px
+    &__logo
+      width: 95px
+    &__contact
+      &-form
+        grid-column: span 6
+        max-width: 539px
+    &__input
+      max-width: 250px
+
 @media (max-width: 660px)
   .user
     &__name
@@ -154,6 +177,9 @@
           right: 50%
           margin-right: -65px
           transform: translate(50%, 0)
+  .footer
+    &__input
+      flex-basis: 48%
 
 @media (max-width: 576px)
   .container
@@ -232,6 +258,53 @@
 @media (max-width: 500px)
   .card
     width: 100%
+  .footer
+    &-wrapper
+      grid-template-columns: 1fr
+      grid-row-gap: 30px
+      grid-column-gap: 0
+      margin-bottom: 30px
+    &__social-network
+      grid-row: 2/3
+      grid-column: span 1
+      flex-wrap: wrap
+    &__legal
+      grid-row: 3/4
+      grid-column: span 1
+    &__addition
+      grid-row: 4/5
+      grid-column: span 1
+    &__categories
+      grid-row: 5/6
+      grid-column: span 1
+    &__contact-details
+      grid-row: 6/7
+      grid-column: span 1
+    &__contact-form
+      grid-row: 7/8
+      grid-column: span 1
+    &__form
+      width: 100%
+    &__title
+      flex-basis: 100%
+      &--inline
+        margin-bottom: 23px
+    &__input
+      max-width: 100%
+      flex-basis: 100%
+    &__button
+      order: 10
+    &__info
+      display: block
+    &-wrap
+      grid-template-columns: 1fr 0px
+      grid-row-gap: 10px
+    &__add
+      grid-column-start: 1
+    &__cards
+      grid-row-start: 2
+      grid-column-start: 1
+
 @media (max-width: 320px)
   .hotel
     padding-bottom: 41px
